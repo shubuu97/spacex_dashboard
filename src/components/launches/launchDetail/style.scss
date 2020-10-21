@@ -1,0 +1,90 @@
+.close_icon {
+   float: right;
+   i {
+      font-size: 24px;
+   }
+}
+
+.launch_detail {
+   .card_header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+
+      .image_container {
+         height: 60px;
+         width: 60px;
+         img {
+            height: 100%;
+            width: auto;
+         }
+      }
+   }
+
+   .hero_text {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+   }
+
+   .article-icon {
+      color: #4d4b45;
+   }
+
+   .wiki-icon {
+      color: #909ca7;
+   }
+
+   .yt-icon {
+      color: #ff0000;
+   }
+
+   .detail {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+@media only screen and (max-width: 590px) {
+   .launch_detail {
+      .card_header {
+         flex-direction: row;
+
+         .image_container {
+            height: 30px;
+            width: 30px;
+         }
+      }
+
+      .hero_text {
+         font-size: 18px;
+         letter-spacing: 0.5px;
+      }
+
+      .description {
+         font-size: 14px;
+      }
+
+      .detail {
+         font-size: 14px;
+      }
+   }
+}
+
+@media only screen and (max-width: 460px) {
+   .launch_detail {
+      .hero_text {
+         font-size: 13px;
+         letter-spacing: 0px;
+      }
+
+      .description {
+         font-size: 12px;
+      }
+
+      .detail {
+         font-size: 12px;
+      }
+   }
+}

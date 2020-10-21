@@ -1,0 +1,37 @@
+.launch {
+   padding: 20px 30px;
+   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+
+   .card_header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+
+      .image-container {
+         height: 60px;
+         width: 60px;
+         img {
+            height: 100%;
+            width: auto;
+         }
+      }
+   }
+
+   .hero_text {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+   }
+
+   .detail {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+.launch:hover {
+   cursor: pointer;
+   background-color: #ececec;
+   transition: background-color 0.5s;
+}
